@@ -1,0 +1,266 @@
+:root {
+  --primary-color: #54ac7c;
+  --secondary-color: #b1d567;
+  --tertiary-color: #f5f7fc;
+  --error-color: #fe9b9b;
+  --background-color: #fefefe;
+  --text-black-color: #3d3d3d;
+  --text-gray-color: #727272;
+  --stokes-color: #a5a5a5;
+}
+.cardbgclr{
+  background-color: var(--tertiary-color);
+
+}
+.texthclr{
+  color: var(--text-black-color);
+}
+.textpclr{
+  color: var(--text-gray-color);
+}
+.grayclr{
+  color: var(--stokes-color);
+}
+.primaryclr {
+  color: var(--primary-color);
+}
+.secondaryclr {
+  color: var(--secondary-color);
+}
+.custom-primary-box {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.custom-button {
+  && {
+    background-color: var(--background-color);
+    border: none;
+    color: var(--text-black-color);
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: x-large;
+  }
+  
+  &&:hover {
+    background-color: var(--background-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: x-large;
+  }
+}
+.btn-text {
+  && {
+    color: var(--text-black-color);
+    background-color: var(--background-color);
+    border: none;
+  }
+  
+  &&:hover {
+    color: var(--text-black-color);
+    background-color: var(--background-color);
+    border: none;
+  }
+  &&:focus {
+    color: var(--text-black-color);
+    background-color: var(--background-color);
+    border: none;
+  }
+}
+.btns-wtoutline {
+  && {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: none;
+  }
+
+  &&:hover {
+    color: var(--secondary-color);
+    background-color: transparent;
+    border: none;
+  }
+  
+  &&:active {
+    color: var(--text-black-color);
+    background-color: transparent;
+    border: none;
+  }
+}
+.btns-sizeoutline {
+  && {
+    color: var(--stokes-color);
+    background-color: transparent;
+    border: 1.25px solid var(--stokes-color);
+  }
+
+  &&:hover {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1.5px solid var(--primary-color);
+  }
+  
+  &&:active {
+    color: var(--text-black-color);
+    background-color: transparent;
+    border: none;
+  }
+}
+.btns-outline {
+  && {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+  }
+
+  &&:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+  
+  &&:active {
+    color: var(--text-black-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+}
+.btns-fill {
+  && {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+  
+  &&:hover {
+    color: var(--background-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+  }
+  
+  &&:active {
+    color: var(--text-black-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+}
+
+.centerline {
+  border-bottom: 2px solid var(--text-black-color);
+  width: 125px;
+  margin-bottom: 2%;
+}
+
+.input:hover {
+  border: 1.5px solid var(--primary-color);
+}
+
+.icons {
+  width: 10%;
+}
+.menus {
+  width: 30%;
+}
+
+.caro {
+  width: 90vw;
+  border-radius: 50px;
+  margin-inline: auto;
+  margin-top: 50px;
+  background-image: linear-gradient(90deg, #f5f7fc, #fafafa);
+}
+.seclr {
+  color: var(--secondary-color);
+}
+.cardsection-left {
+  background-color: var(--background-color);
+  height: 100%;
+  width: 90vw;
+  margin: auto;
+}
+.filtersection {
+  width: 25%;
+  height: 850px;
+  border-radius: 20px;
+  background-color: var(--tertiary-color);
+}
+.lineprimaryclr {
+  border-bottom: 2px solid var(--primary-color);
+}
+.cardsection {
+  width: auto;
+  height: 100%;
+}
+.cards-img {
+  width: 295px;
+  height: 280px;
+  background-color: var(--tertiary-color);
+  color: var(--text-black-color);
+  border-radius: 10px;
+}
+.footer {
+  height: 100%;
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
+}
+.bt {
+  border-radius: 0px 10px 10px 0px;
+  margin-top: -5px;
+}
+.footipt {
+  border-right: none;
+  border-block: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+  border-radius: 10px 0px 0px 10px;
+}
+.rt-line{
+  border-right: 2px solid var(--background-color);
+}
+.bt-b-line{
+  border-bottom: 2px solid var(--background-color);
+  border-top: 2px solid var(--background-color);
+}
+.ft-mid{
+  background-color: #f0f6e1;
+}
+.un-list{
+  list-style: none;
+}
+.blogs{
+  
+  width: 90vw;
+  margin: auto;
+}
+.pstcardmain{
+  width: 90vw;
+  margin: auto;
+  height: 100%;
+
+}
+.pstcard{
+  width: 590px;
+  height: 250px;
+  background-color: var(--tertiary-color);
+border-radius: 10px;
+}
+.sizebtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.no-border {
+  &&{border: none;
+    border-radius: 0; 
+    box-shadow: none;
+  } 
+  &&:focus{border: none;
+    border-radius: 0; 
+    box-shadow: none;
+    /* border-color: transparent; */
+    outline: none ;
+  } 
+}
